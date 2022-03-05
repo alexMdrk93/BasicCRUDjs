@@ -27,3 +27,11 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+
+### How to install new package versions ###
+
+* npm uninstall package-name
+* rm -rf node_modules
+* npm install package-name@version
+* 

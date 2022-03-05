@@ -1,0 +1,83 @@
+{
+  "Heroes": [
+    {
+      "id": 1,
+      "nume": "Clark",
+      "prenume": "Kent",
+      "numeDeErou": "SuperMan"
+    },
+    {
+      "id": 2,
+      "nume": "Downey-Jr",
+      "prenume": "Robert",
+      "numeDeErou": "IronMan"
+    },
+    {
+      "id": 3,
+      "nume": "Evans",
+      "prenume": "Chris",
+      "numeDeErou": "CaptainAmerica"
+    },
+    {
+      "id": 4,
+      "nume": "Ruffalo",
+      "prenume": "Mark",
+      "numeDeErou": "Hulk"
+    },
+    {
+      "id": 5,
+      "nume": "Hemsworth",
+      "prenume": "Chris",
+      "numeDeErou": "Thor"
+    },
+    {
+      "id": 6,
+      "nume": "Hiddleston",
+      "prenume": "Tom",
+      "numeDeErou": "Loki"
+    },
+    {
+      "id": 7,
+      "nume": "Jackson",
+      "prenume": "Samuel",
+      "numeDeErou": "NickFury"
+    }
+  ],
+  "SuperPowers": [
+    {
+      "id": 1,
+      "numeSuper": "laserFrate",
+      "HeroId": 1
+    },
+    {
+      "id": 2,
+      "numeSuper": "zboaraPuiule",
+      "HeroId": 2
+    },
+    {
+      "id": 3,
+      "numeSuper": "farfurieSburatoare",
+      "HeroId": 3
+    },
+    {
+      "id": 4,
+      "numeSuper": "mareleVerde",
+      "HeroId": 4
+    },
+    {
+      "id": 5,
+      "numeSuper": "staBinePeCiocan",
+      "HeroId": 5
+    },
+    {
+      "id": 6,
+      "numeSuper": "dracImpielitat",
+      "HeroId": 6
+    },
+    {
+      "id": 7,
+      "numeSuper": "putinChior",
+      "HeroId": 7
+    }
+  ]
+}

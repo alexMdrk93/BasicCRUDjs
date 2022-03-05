@@ -1,0 +1,22 @@
+{
+  "name": "superheroesjs",
+  "version": "1.0.0",
+  "description": "Tema JS",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alex_drk93@bitbucket.org/alex_drk93/superheroesjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/alex_drk93/superheroesjs/issues"
+  },
+  "homepage": "https://bitbucket.org/alex_drk93/superheroesjs#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
