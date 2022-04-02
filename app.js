@@ -114,8 +114,7 @@ const deleteFlow = (event) => {
     const id = Number(event.target.id.split('-').at(-1));
     const fetchDelH = fetch(`${urlRoot}/Heroes/${id}`, {method: 'DELETE'});
     const fetchDelSp = fetch(`${urlRoot}/SuperPowers/${id}`, {method: 'DELETE'});
-    Promise.all([fetchDelH, fetchDelSp])
-        .then(getResponse());
+    Promise.all([fetchDelH, fetchDelSp]);
 }
 
 const addHeroFn = (event) => {
@@ -124,12 +123,14 @@ const addHeroFn = (event) => {
     const prenume = form[1].value;
     const numeDeErou = form[2].value;
     const numeSuper = form[3].value;
+    const id = Math.random().toString(10).slice(2, 7);
     const URLpostH = `http://localhost:3000/Heroes/`;
     const URLpostSp = `http://localhost:3000/SuperPowers/`
     const fetchH = fetch(URLpostH, {
         method: "POST",
         headers: {"Content-type": "application/json"},
         body: JSON.stringify({
+            id,
             nume,
             prenume,
             numeDeErou
@@ -139,11 +140,11 @@ const addHeroFn = (event) => {
         method: 'POST',
         headers: {'Content-type': 'application/json'},
         body: JSON.stringify({
-            numeSuper
+            numeSuper,
+            HeroId: id
         })
     });
-    Promise.all([fetchH, fetchSp])
-    .then(getResponse());
+    Promise.all([fetchH, fetchSp]);
 }
 
 const getResponse = response => response.json();
